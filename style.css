@@ -1,0 +1,47 @@
+body {
+	background-image: url("images/background.jpg");
+	background-color: darkgrey;
+	background-size: fill;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+
+h2 {
+	text-align: center;
+	margin: 50px;
+	color: whitesmoke;
+	font-size: 40px;
+}
+
+h3 {
+	text-align: center;
+	margin: 50px;
+	color: darkolivegreen;
+	font-size: 20px;
+}
+
+button {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 16px;
+	width: 250px;
+	display: flex;
+	margin: auto;
+	transition-duration: 0.4s;
+}
+
+.button:hover {
+ 	background-color: darkgrey;
+	color: whitesmoke;
+	border: 2px solid black;
+}
+
+p {
+	text-align: center;
+	color: whitesmoke;
+	font-size: 25px;
+}
